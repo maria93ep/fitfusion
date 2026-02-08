@@ -109,7 +109,7 @@ export default function Contact() {
                 href="mailto:stanmaria9327@yahoo.com"
                 className="hover:underline text-gray-300"
               >
-                stanmaria9327@yahoo.com
+                infofitfusion@yahoo.com
               </a>
             </div>
           </div>
