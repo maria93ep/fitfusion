@@ -16,6 +16,13 @@ export const metadata: Metadata = {
   title: "FitFusion Gym – Gymnastics & Performance Training",
   description:
     "Professional gymnastics, strength & conditioning and performance training for kids and adults. Train smarter, move better, perform stronger with FitFusion.",
+  keywords:
+    "gymnastics, fitness, strength, kids classes, core training, performance, FitFusion",
+  
+  // verificarea Google
+  verification: {
+    google: "google704dc25b1689236a",
+  },
 
   openGraph: {
     title: "FitFusion Gym",
