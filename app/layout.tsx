@@ -1,3 +1,4 @@
+// app/layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -18,10 +19,9 @@ export const metadata: Metadata = {
     "Professional gymnastics, strength & conditioning and performance training for kids and adults. Train smarter, move better, perform stronger with FitFusion.",
   keywords:
     "gymnastics, fitness, strength, kids classes, core training, performance, FitFusion",
-  
-  // verificarea Google
+
   verification: {
-    google: "google704dc25b1689236a",
+    google: "Le3iNHpK5RibqQ7uW0np8g1Cs0cCh-PMyvmtIzDcsW8",
   },
 
   openGraph: {
@@ -50,9 +50,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body
